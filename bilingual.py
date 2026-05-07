@@ -381,7 +381,7 @@ for frame_path in frame_paths:
     out_pause.write(frame)
 
 # Add 3 seconds of the final frame (3 seconds * fps frames)
-for _ in range(3 * fps):
+for _ in range(15 * fps):
     out_pause.write(last_frame)
 
 out_pause.release()
